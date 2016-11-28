@@ -6,11 +6,27 @@ package hw;
  * Date: 2016/11/28
  * Author: 1050210XX 周永振老師
  */
+import java.util.*;
 public class hw02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		int sum = 1;
+		for(int x =0;sum<n;x++){
+			sum = sum+x;
+			if(sum>n){
+				break;
+			}
+			System.out.print(sum+" ");
+		}
+		System.out.println();
+		for(int x = 1;x<=n;x++){
+			for(int y = 0;x>y;y++){
+				System.out.print(x);
+			}
+		}
 	}
 
 }

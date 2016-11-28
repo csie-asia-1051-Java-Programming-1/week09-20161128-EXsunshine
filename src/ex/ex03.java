@@ -4,12 +4,25 @@
  * Date: 2016/11/28
  * Author: 1050210XX 周永振老師
  */
-
+import java.util.*;
 public class ex03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn = new Scanner(System.in);
+		int a = scn.nextInt();
+		int z=0;
+		for(int b =1;b<=a;b++){
+			if(a%b==0){
+				System.out.println(b);
+				z++;
+			}
+		}
+		if(z==2){
+			System.out.println("質數");
+		}else{
+			System.out.println("不是質數");
+		}
+			}
 
-	}
-
-}
+		}
