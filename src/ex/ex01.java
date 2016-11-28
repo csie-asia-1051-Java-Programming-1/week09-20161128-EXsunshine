@@ -5,9 +5,9 @@
 	Random randnum = new Random();
 	randnum.setSeed(23323456)
  * Date: 2016/11/28
- * Author: 1050210XX 周永振老師
+ * Author: 105021057 張岳埕
  */
-
+import java.util.*;
 public class ex01 {
 
 	public static void main(String[] args) {
